@@ -1,0 +1,187 @@
+*{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0px; 
+    padding: 0px;
+}
+:root{
+    --x:rgba(95, 6, 6, 0.819);
+}
+/* #nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100% ;
+} */
+#logo{
+    width: 100%;
+    height: 100px;
+}
+#buttonCo{
+    color: white;
+    background-color: var(--x);
+}
+#buttonCo:hover{
+    color: var(--x);
+    background-color: white;
+    border-color: var(--x);
+}
+li i{
+    color: rgb(156, 154, 154);
+}
+#main{
+    background-image: url('https://img.freepik.com/premium-photo/modern-red-sofa-decoration-living-room-interior-red-wall-pattern-background_221619-1073.jpg');
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#heading{
+    padding-top: 20%;
+    padding-left: 10%;
+}
+#heading h1{
+    font-size: 80px;
+}
+#bg{
+    background-color: rgba(0, 0, 0, 0.408); /* transparency */
+    width: 100%;
+}
+@media (max-width:600px){
+    #heading h1{
+        font-size: 40px;
+    }
+    #main{
+        background-position: left;
+    }
+}
+#work{
+    margin-top: 10%;
+    background-image: url('https://img.freepik.com/premium-vector/light-blurred-bokeh-background-vector-illustration_64749-4575.jpg');
+    padding-top: 8%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card img{
+    height: 400px;
+}
+div .viewbtn{ /*div nte ullile btnu cmplte style kodthath aanu so vere btn varumbo total impact ayikkolum */
+    border: 1px solid var(--x);
+    color: var(--x);
+}
+div .viewbtn:hover{
+    background-color: var(--x);
+    color: white;
+}
+#about{
+    background-color: rgb(220, 220, 220);
+    padding: 10% 0%;
+}
+#about h1{
+    color: var(--x);
+}
+#hr{
+    height: 0.5rem;
+    width: 180px;
+    background-color: var(--x);
+}
+#about p{
+    text-align: justify;
+}
+#img-div{
+    border: 7px solid var(--x);
+    height: 480px;
+    width: 470px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#project-gallery h1{
+    margin: 5% 0%;
+}
+.small-div{
+    background-color: rgba(0, 0, 0, 0.852);
+    color: white;
+    padding:10px;
+    width: 70%;
+    position: absolute;
+    bottom: 0px;
+}
+.big-div{
+    position: relative;
+    margin-top: 20px;
+}
+#carosel{
+    margin: 10% 5%;
+}
+#testimonial{
+    margin: 10% 0%;
+}
+#testimonial p{
+    padding-left: 100px;
+    font-size: 18px;
+}
+#main-card .card{
+    width: 360px;
+    height: 460px;
+    background-color: #f8f9fa;
+}
+#main-card p{
+    color: black;
+    padding-left: 20px;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    border: 1px solid #f8f9fa;   
+}
+.card-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;   
+}
+#footer{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+#footer p{
+    text-align: justify;
+    font-size: 15px;
+}
+#footer #list ul{
+    padding-left: 130px;
+    list-style: none;
+    padding-top: 20px;
+}
+#footer #list a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+#form input{
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+#form button{
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+#icons ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#icons li{
+    list-style: none;
+}
+#icons i{
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
